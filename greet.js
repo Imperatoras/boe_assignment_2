@@ -3,3 +3,4 @@ const greet = (name) => {
 };
 
 module.exports = greet;
+return(greet);
