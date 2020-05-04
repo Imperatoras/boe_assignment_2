@@ -6,7 +6,7 @@ const isRightTriangle = (a, b, c) => {
     return(true);
   }
   if(Math.pow(a,2) + Math.pow(c,2) == Math.pow(b,2)){
-    return(true):
+    return(true);
   }
   if(Math.pow(b,2) + Math.pow(c,2) == Math.pow(a,2)){
     return(true);
