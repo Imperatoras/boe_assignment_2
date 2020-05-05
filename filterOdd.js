@@ -1,7 +1,7 @@
 const filterOdd = (arr) => {
   let a = [];
   for(i in a){
-    a.push(i);
+    if(i%2 == 1) {a.push(i);}
   }
   return(a);
 };
