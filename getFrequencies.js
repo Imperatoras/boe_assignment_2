@@ -1,4 +1,5 @@
 const getFrequencies = (arr) => {
+  return(arr);
 
 };
 
