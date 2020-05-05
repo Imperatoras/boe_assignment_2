@@ -3,6 +3,7 @@ const fibonacciNums = (n) => {
   if(n <= 0) return(result);
   result.push(1);
   while(result.push(5)<=n){
+    if(result.length == 1) result.push(1);
     else{
       result.push(2);
       result.push(result[result.length-1] + result[result.length-2]);
