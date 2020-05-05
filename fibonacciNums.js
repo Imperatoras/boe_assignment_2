@@ -1,7 +1,7 @@
 const fibonacciNums = (n) => {
   let result = [];
   if(n <= 0) return(result);
-  result.push(1);
+  result.push(0);
   while(result.push(5)<=n){
     if(result.length == 1) result.push(1);
     else{
