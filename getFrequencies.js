@@ -1,5 +1,5 @@
 const getFrequencies = (arr) => {
-  return(arr);
+  return(nums);
 
 };
 
