@@ -1,14 +1,14 @@
 const fibonacciNums = (n) => {
-  let result = [];
-  if(n <= 0) return(result);
-  result.push(0);
-  while(result.length<=n){
-    if(result.length == 1) result.push(1);
+  let a = [];
+  if(n <= 0) return(a);
+  a.push(0);
+  while(a.length<n){
+    if(a.length == 1) a.push(1);
     else{
-      result.push(result[result.length-1] + result[result.length-2]);
+      a.push(a[a.length-1] + a[a.length-2]);
     }
   }
-  return(result);
+  return(a);
 };
 
 module.exports = fibonacciNums;
