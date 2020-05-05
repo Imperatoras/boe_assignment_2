@@ -3,7 +3,8 @@ const getFrequencies = (arr) => {
   ret.nums = [];
   ret.freq = [];
   for(i in arr){
-
+    if (ret.nums.includes(i)) ret.nums[ret.nums.indexOf(i)]++;
+    else ret.nums.push(i);
   }
   return(ret);
 
