@@ -5,7 +5,7 @@ const getFrequencies = (arr) => {
     //if(dict[str] == "undefined") dict[str] = 1;
     //else dict[str] = dict[str]++;
   }
-  return(dict);
+  return(arr);
 };
 
 module.exports = getFrequencies;
