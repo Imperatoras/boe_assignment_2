@@ -1,7 +1,9 @@
 const getFrequencies = (arr) => {
   var dict = new Object();
   var str = "";
-  dict[1] = 2;
+  for(var i = 0; i < arr.length; i++){
+    if(dict[arr[i]]!="undefined") dict[arr[i]] = 1;
+    else dict[arr[i]] = dict[arr[i]]++;
   return(dict);
 };
 
