@@ -1,17 +1,10 @@
 const getFrequencies = (arr) => {
-  var ret = new Object();
-  ret.nums = [];
-  ret.freq = [];
+  var dict = new Object();
   for(i in arr){
-    if (ret.nums.includes(i)){
-      ret.nums[ret.nums.indexOf(i)]++;
-    }
-    else {
-      ret.nums.push(i);
-    }
+    if(dict[arr[i]] == "undefined") dict[arr[i]] = 1;
+    else dict[arr[i]] = dict[arr[i]]++;
   }
-  return(ret);
-
+  return(dict);
 };
 
 module.exports = getFrequencies;
